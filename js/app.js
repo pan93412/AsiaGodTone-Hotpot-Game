@@ -117,7 +117,7 @@ const app = Vue.createApp({
       }, 1000/60)
 
       setInterval(() => {
-        alert(device);
+        alert(JSON.stringify(device));
       }, 1000);
     })
 
