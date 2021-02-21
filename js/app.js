@@ -115,6 +115,10 @@ const app = Vue.createApp({
           angle.value += positive ? wind : wind*-1
         }
       }, 1000/60)
+
+      setInterval(() => {
+        alert(device);
+      }, 1000);
     })
 
     return {
